@@ -13,6 +13,7 @@ class heat_exchanger:
         self.t_h_in = 425  # C
         self.m_dot = 10  # kg/s
         self.h_given = 150  # W/(m^2*K)
+        
 
         self.c_c = self.m_dot*self.cp
         self.c_h = self.m_dot*self.cp
